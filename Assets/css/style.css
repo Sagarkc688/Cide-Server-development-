@@ -50,7 +50,7 @@ body {
 }
 /****** headerm and banner section******/
 .header-and-banner-con{
-    background: url("/Cide-Server-development-/images/banner-bg-img.png") no-repeat top left;
+    background: url("/Cide-Server-development-/Assets/images/banner-bg-img.png") no-repeat top left;
     background-size: cover;
 }
 .header-main-con{
@@ -139,7 +139,7 @@ body {
 /****** headerm and banner section******/
 /****** sloution box section ********/
 .sloution-box-content{
-	background: url("/Cide-Server-development-/images/sloution-box-bg-img.png") no-repeat center;
+	background: url("/Cide-Server-development-/Assets/images/sloution-box-bg-img.png") no-repeat center;
 	background-size: cover;
 	padding: 100px 96px;	
 }
@@ -250,7 +250,7 @@ body {
 /****** service section********/
 /******* help section ********/
 .help-con{
-	background: url("/Cide-Server-development-/images/help-bg-img.jpg") no-repeat top right;
+	background: url("/Cide-Server-development-/Assets/images/help-bg-img.jpg") no-repeat top right;
 	background-size: cover;
 }
 .client-details-box{
@@ -353,7 +353,7 @@ body {
 /*** client section *****/
 /*** work section *****/
 .work-con{
-	background: url("/Cide-Server-development-/images/work-bg-img.jpg") no-repeat center;
+	background: url("/Cide-Server-development-/Assets/images/work-bg-img.jpg") no-repeat center;
 	background-size: cover;
 }
 .work-portfolio-box-content span{
@@ -409,7 +409,7 @@ body {
 /*** work section *****/
 /**** tastimonials section****/
 .tastimonials-con{
-	background: url("/images/tastimonials-bg-img.png") no-repeat center;
+	background: url("/Cide-Server-development-/Assets/images/tastimonials-bg-img.png") no-repeat center;
 	background-size: cover;
 }
 .testimonials-content h6{
@@ -488,7 +488,7 @@ body {
     position: absolute;
     top: -26px;
     left: -84px;
-	background: url("/images/tastimonials-lft-bg-img.png") no-repeat top left;
+	background: url("/Cide-Server-development-/Assets/images/tastimonials-lft-bg-img.png") no-repeat top left;
 }
 .tastimonials-left-con img{
 	position: relative;
@@ -508,7 +508,7 @@ body {
 /**** tastimonials section****/
 /****information section***/
 .information-inner-con:after{
-	background: url("/images/human-img2.png") no-repeat top left;
+	background: url("/Cide-Server-development-/Assets/images/human-img2.png") no-repeat top left;
 	width: 500px;
 	height: 750px;
 	top: -133px;
@@ -534,7 +534,7 @@ body {
 /****information section***/
 /**** footer section***/
 .weight-footer-con{
-	background: url("/Cide-Server-development-/images/weight-footer-img.jpg") no-repeat top right;
+	background: url("/Cide-Server-development-/Assets/images/weight-footer-img.jpg") no-repeat top right;
 	background-size: cover;
 	padding: 100px 0;
 }
@@ -650,7 +650,7 @@ body {
 /**** footer section ***/
 /******************/
 .generic-banner-con{
-	background: url("/Cide-Server-development-/images/generic-banner.png") no-repeat center;
+	background: url("/Cide-Server-development-/Assets/images/generic-banner.png") no-repeat center;
 	background-size: cover;
 }
 .generic-banner-con .banner-con h1{
