@@ -49,8 +49,8 @@ body {
 	--dark-blue-color:#3b3c4e;
 }
 /****** headerm and banner section******/
-.header-and-banner-con{
-    background: url("/Cide-Server-development-/Assets/images/banner-bg-img.png") no-repeat top left;
+.header-and-banner-con {
+    background: url(../images/banner-bg-img.png) no-repeat top left;
     background-size: cover;
 }
 .header-main-con{
@@ -112,6 +112,12 @@ body {
 .banner-main-con{
 	padding-top: 88px;
 	padding-bottom: 132px;
+}
+.banner-right-new img{
+	max-width: 100%;
+    border-radius: 30px 30px 76px 30px;
+    padding: 10px;
+
 }
 .dropdown-item{
 	font-size: 16px;
