@@ -89,59 +89,31 @@
       <!-- form section -->
       <div class="w-100 float-left form-con padding-bottom padding-top wow fadeInUp">
          <div class="container">
-            <form action="contact.php" method="post" role="form" class="php-email-form contact-form form-inner-con">
+            <form action="contact.php" method="post" role="form" class="php-email-form contact-form form-inner-con" onsubmit="return validateForm(event)">
+
                <div class="form-area">
 
                   <div class="input-group">
-                     <input type="text" name="name" placeholder="Enter your name">
+                     <input type="text" name="name" placeholder="Enter your name" required>
 
                   </div>
                   <div class="input-group mt-20">
-                     <input type="email" name="email" placeholder="Enter your email">
+                     <input type="email" name="email" placeholder="Enter your email" required>
 
                   </div>
                   <div class="input-group textarea-group mt-20">
                      <textarea name="message" id="#" cols="30" rows="5" placeholder="Enter your message" class=""></textarea>
 
                   </div>
-                  <!--VALIDATION Captcha Code-->
-                  <div class="row">
-                     <div class="col-lg-12">
-                        <div class="input-group mt-20" style="padding-top: 0px">
-                           <div class="comment-form__input-box" style="width:100%;">
-                              <input type="text" name="captcha" placeholder="Security Check" id="validation-code" style="width: 100%;">
-                           </div>
-                        </div>
-                     </div>
-                     <div class="col-lg-6">
-                        <div class="input-group mt-20 cstm-group">
 
-                           <img class="img-fluid" src="verification.php?rand=<?php echo rand(); ?>" id="captcha_image" style="width:32%; border-radius:10px; height: 45px; ">
-
-                        </div>
-                     </div>
-                     <div class="col-lg-6">
-                        <p style="line-height:1.4; font-size: 13px;margin-top:10px;margin-left:25px; color: #000;text-align: right;" class="cs-marg-mob">Can't read the image? <br> <a href="javascript: refreshCaptcha();" style="color:#000;text-decoration: underline;">click here</a> to refresh</p>
-
-                     </div>
-                     <div class="col-lg-12">
-                        <div class="input-group mt-20">
-                           <button class="split-btn-color" type="button" id="sendMessageButton" style="margin-top:0px;" onclick="window.location.href='thankyou.html';">
-                              Submit Message</button>
-                          
-                        </div>
+                  <div class="col-lg-12">
+                     <div class="input-group mt-20">
+                        <button class="split-btn-color" type="button" id="sendMessageButton" style="margin-top:0px;" onclick="window.location.href='thankyou.html';">
+                           Submit Message</button>
+                           
+                           
                      </div>
                   </div>
-                  <!-------------------Captcha Script------------------------------>
-                  <script>
-                     //Refresh Captcha
-                     function refreshCaptcha(){
-                        var img = document.images['captcha_image'];
-                        img.src = img.src.substring(
-                                0,img.src.lastIndexOf("?")
-                        )+"?rand="+Math.random()*1000;
-                     }
-                  </script>
 
                </div>
             </form>
@@ -158,15 +130,6 @@
                            <img src="/Cide-Server-development-/Assets/images/logo-img.png" alt="logo-img" class="img-fluid">
                         </figure>
                         <p class="col-lg-11 pl-0 col-12 pr-0">Ring Grid is an IT support firm that aims to help companies struggling to optimise their IT infrastructure.</p>
-                        <!-- <div class="social-icon">
-                           <ul class="mb-0 pl-0">
-                              <li class="d-inline-block"><a href="https://www.facebook.com/" class="pl-0"><span class="fab fa-facebook-f"></span></a></li>
-                              <li class="d-inline-block"><a href="https://www.google.com.pk/?hl=ur"><span class="fab fa-google-plus-g"></span></a></li>
-                              <li class="d-inline-block"><a href="https://twitter.com/"><span class="fab fa-twitter"></span></a></li>
-                              <li class="d-inline-block"><a href="https://www.reddit.com/"><span class="fab fa-reddit-alien"></span></a></li>
-                              <li class="d-inline-block"><a href="https://www.pinterest.com/" class="pr-0"><span class="fab fa-pinterest-p"></span></a></li>
-                           </ul>
-                        </div> -->
                       </div>
                  </div>
                   <div class="col-lg-2 col-md-4 col-sm-4 col-6">
