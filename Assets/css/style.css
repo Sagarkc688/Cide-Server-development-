@@ -175,12 +175,18 @@ body {
 }
 /****** sloution box section ********/
 /****** service section********/
+
 .service-box-item figure{
 	margin-bottom: 12px;
 }
 .service-box-item h4{
 	font-weight: 700;
 	margin-bottom:10px;
+}
+.service-con.serviex-m{
+	background: url(../images/help-bg-img.jpg) no-repeat top right;
+    background-size: cover;
+
 }
 .service-box-item a{
 	color: var(--text-color);
@@ -234,7 +240,7 @@ body {
 	content: "";
     width: 410px;
     height: 912px;
-    background: url(/Cide-Server-development-/images/human-img2.png) no-repeat top right;
+    background: url(../images/human-img2.png) no-repeat top right;
     position: absolute;
     right: -357px;
     top: -226px;
@@ -312,6 +318,12 @@ body {
 .help-right-con h2 span{
 	z-index: 1;
 	color: var(--accent-color);
+}
+.img-help-new img{
+	max-width: 100%;
+	border-radius: 50%;
+	height: 400px;
+	width: 400px;
 }
 .help-left-con{
 	margin-top: 18px;
@@ -549,7 +561,7 @@ body {
 /****information section***/
 /**** footer section***/
 .weight-footer-con{
-	background: url("/Cide-Server-development-/Assets/images/weight-footer-img.jpg") no-repeat top right;
+	background: url("../images/weight-footer-img.jpg") no-repeat top right;
 	background-size: cover;
 	padding: 100px 0;
 }
