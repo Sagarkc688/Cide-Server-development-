@@ -270,6 +270,57 @@ body {
     top: 159px;
     left: -60px;
 }
+.designer-con {
+    right: -41px;
+    width: 150px;
+    height: 110px;
+    top: 48px;
+    left: auto;
+}
+
+.client-details-box figure{
+	margin-bottom: 14px;
+}
+.client-details-box p{
+	font-weight: 700;
+	line-height: 20px;
+}
+.designer-con span{
+    font-size: 18px;
+    font-weight: 700;
+    position: absolute;
+    right: 19px;
+    bottom: 24px;
+}
+
+.designer-con {
+    right: -41px;
+    width: 150px;
+    height: 110px;
+    top: 48px;
+    left: auto;
+}
+.commetns-con {
+    bottom: -17px;
+    right: -40px;
+    left: auto;
+    top: auto;
+}
+.help-right-con h2 span::after {
+    bottom: 13px;
+}
+.help-right-con h2 span{
+	z-index: 1;
+	color: var(--accent-color);
+}
+.help-left-con{
+	margin-top: 18px;
+}
+.designer-con figure{
+    position: absolute;
+    left: 0;
+    top: 31px;
+}
 /******* help section ********/
 /*** client section *****/
 .client-box-item p{
