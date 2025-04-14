@@ -145,7 +145,7 @@ body {
 /****** headerm and banner section******/
 /****** sloution box section ********/
 .sloution-box-content{
-	background: url("/Cide-Server-development-/Assets/images/sloution-box-bg-img.png") no-repeat center;
+	background: url("../images/sloution-box-bg-img.png") no-repeat center;
 	background-size: cover;
 	padding: 100px 96px;	
 }
