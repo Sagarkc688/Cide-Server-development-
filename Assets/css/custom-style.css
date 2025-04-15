@@ -1,25 +1,5 @@
 
-/**************************************************
-=-*=-*=-*=-*=-*=-*= Single Post =-*=-*=-*=-*=-*=-*=
-**************************************************/
-.single-post01 .post-image img,
-.single-post01 .post-navigation,
-.single-post01 .comment-list img,
-.sidebar .widget,
-.sidebar .widget-tweeter small,
-.sidebar .widget-twitter small,
-#loader-wrapper,
-.post-image img,
-.single-post01 .post-item-description .post-meta,
-.sidebar .form-inline .input-group,
-.sidebar .post-thumbnail-entry,
-.fluid-width-video-wrapper iframe,
-.fluid-width-video-wrapper object,
-.fluid-width-video-wrapper embed,
-#blog .post-item.border > .post-item-wrap > .post-item-description,
-#blog img,#blog audio,#blog iframe{
-	width: 100%;
-}
+
 .single-post01 .post-image img {
 	height: auto;
 }
