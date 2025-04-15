@@ -1,4 +1,8 @@
+/*------------------------------------------------------------------
+[Master Stylesheet]
 
+Project: Ring Grid Technologies
+-------------------------------------------------------------------*/
 /*------------------------------------------------------------------
 [Table of contents]
 
@@ -28,9 +32,12 @@
 # dark-blue-color:#3b3c4e
 # */
 /*------------------------------------------------------------------
+[Typography]
+
+Body copy:     'Jost', sans-serif;
 
 -------------------------------------------------------------------*/
-
+@import url('https://fonts.googleapis.com/css2?family=Jost:wght@400;500;600;700&display=swap');
 body {
 	font-family: 'Jost', sans-serif;
 }
@@ -373,7 +380,7 @@ body {
 /*** client section *****/
 /*** work section *****/
 .work-con{
-	background: url("/Cide-Server-development-/Assets/images/work-bg-img.jpg") no-repeat center;
+	background: url("/Assets/images/work-bg-img.jpg") no-repeat center;
 	background-size: cover;
 }
 .work-portfolio-box-content span{
@@ -429,7 +436,7 @@ body {
 /*** work section *****/
 /**** tastimonials section****/
 .tastimonials-con{
-	background: url("/Cide-Server-development-/Assets/images/tastimonials-bg-img.png") no-repeat center;
+	background: url("/Assets/images/tastimonials-bg-img.png") no-repeat center;
 	background-size: cover;
 }
 .testimonials-content h6{
@@ -508,7 +515,7 @@ body {
     position: absolute;
     top: -26px;
     left: -84px;
-	background: url("/Cide-Server-development-/Assets/images/tastimonials-lft-bg-img.png") no-repeat top left;
+	background: url("/Assets/images/tastimonials-bg-img.png") no-repeat top left;
 }
 .tastimonials-left-con img{
 	position: relative;
@@ -528,7 +535,7 @@ body {
 /**** tastimonials section****/
 /****information section***/
 .information-inner-con:after{
-	background: url("/Cide-Server-development-/Assets/images/human-img2.png") no-repeat top left;
+	background: url("Assets/images/human-img2.png") no-repeat top left;
 	width: 500px;
 	height: 750px;
 	top: -133px;
@@ -670,7 +677,7 @@ body {
 /**** footer section ***/
 /******************/
 .generic-banner-con{
-	background: url("/Cide-Server-development-/Assets/images/generic-banner.png") no-repeat center;
+	background: url("/Cide-Server-development-/Assets/images/banner-bg-img.png") no-repeat center;
 	background-size: cover;
 }
 .generic-banner-con .banner-con h1{
