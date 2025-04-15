@@ -373,7 +373,7 @@ body {
 /*** client section *****/
 /*** work section *****/
 .work-con{
-	background: url("Assets/images/work-bg-img.jpg") no-repeat center;
+	background: url("/Cide-Server-development-/Assets/images/banner-bg-img.png") no-repeat center;
 	background-size: cover;
 }
 .work-portfolio-box-content span{
@@ -429,7 +429,7 @@ body {
 /*** work section *****/
 /**** tastimonials section****/
 .tastimonials-con{
-	background: url("Assets/images/tastimonials-bg-img.png") no-repeat center;
+	background: url("/Cide-Server-development-/Assets/images/tastimonials-bg-img.png") no-repeat center;
 	background-size: cover;
 }
 .testimonials-content h6{
@@ -508,7 +508,7 @@ body {
     position: absolute;
     top: -26px;
     left: -84px;
-	background: url("Assets/images/tastimonials-lft-bg-img.png") no-repeat top left;
+	background: url("Assets/images/tastimonials-bg-img.png") no-repeat top left;
 }
 .tastimonials-left-con img{
 	position: relative;
@@ -670,7 +670,7 @@ body {
 /**** footer section ***/
 /******************/
 .generic-banner-con{
-	background: url("/Cide-Server-development-/Assets/images/generic-banner.png") no-repeat center;
+	background: url("Assets/images/generic-banner.png") no-repeat center;
 	background-size: cover;
 }
 .generic-banner-con .banner-con h1{
