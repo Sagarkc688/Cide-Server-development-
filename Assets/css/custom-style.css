@@ -520,9 +520,7 @@ a.item-link{
 	transform: translateY(-100%);
 	transition: all 0.3s 1s ease-out;
 }
-/*************************************************
-=-*=-*=-*=-*=-*=-*= One Column =-*=-*=-*=-*=-*=-*=
-**************************************************/
+
 .breadcrumb,
 #loader,
 .sidebar .widget-tweeter small,
@@ -650,9 +648,6 @@ a.item-link{
 .load-more a{
 	color: #fff;
 }
-/*************************************************************
-=-*=-*=-*=-*=-*=-*= Responsive Single Post =-*=-*=-*=-*=-*=-*=
-*************************************************************/
 @media screen and (max-width: 1199px) {
 	.widget-newsletter .form-control {
 		font-size: 12px;
