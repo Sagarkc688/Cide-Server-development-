@@ -1,8 +1,4 @@
-/*------------------------------------------------------------------
-[Master Stylesheet]
 
-Project: Ring Grid Technologies
--------------------------------------------------------------------*/
 /*------------------------------------------------------------------
 [Table of contents]
 
@@ -32,12 +28,9 @@ Project: Ring Grid Technologies
 # dark-blue-color:#3b3c4e
 # */
 /*------------------------------------------------------------------
-[Typography]
-
-Body copy:     'Jost', sans-serif;
 
 -------------------------------------------------------------------*/
-@import url('https://fonts.googleapis.com/css2?family=Jost:wght@400;500;600;700&display=swap');
+
 body {
 	font-family: 'Jost', sans-serif;
 }
